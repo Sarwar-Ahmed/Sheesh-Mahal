@@ -23,4 +23,8 @@
     <string name="sheesh_mahal_restaurant">Sheesh Mahal Restaurant</string>
     <string name="an_indian_cuisine">An_Indian_cuisine</string>
     <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
 </resources>
