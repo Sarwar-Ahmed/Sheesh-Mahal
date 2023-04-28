@@ -8,24 +8,20 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.example.sheeshmahal.databinding.FragmentSlideshowBinding;
+import com.example.sheeshmahal.databinding.FragmentFavouriteBinding;
 
-public class SlideshowFragment extends Fragment {
+public class FavouriteFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentFavouriteBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentFavouriteBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textSlideshow;
         return root;
     }
 

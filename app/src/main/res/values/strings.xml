@@ -27,4 +27,12 @@
     <string name="full_name">Full Name</string>
     <string name="password">Password</string>
     <string name="email_address">Email Address</string>
+    <string name="daily_meal">Daily Meal</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart">Cart</string>
+    <string name="sarwarahmed109_gmail_com">sarwarahmed109@gmail.com</string>
+    <string name="sarwar">Sarwar</string>
+    <string name="log_out">Log Out</string>
 </resources>

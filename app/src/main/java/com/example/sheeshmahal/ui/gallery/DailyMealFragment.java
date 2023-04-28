@@ -8,24 +8,21 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.example.sheeshmahal.databinding.FragmentGalleryBinding;
+import com.example.sheeshmahal.databinding.FragmentDailyMealBinding;
 
-public class GalleryFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+public class DailyMealFragment extends Fragment {
+
+    private FragmentDailyMealBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentDailyMealBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textGallery;
         return root;
     }
 
