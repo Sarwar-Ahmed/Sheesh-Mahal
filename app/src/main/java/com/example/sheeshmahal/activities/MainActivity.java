@@ -1,10 +1,12 @@
-package com.example.sheeshmahal;
+package com.example.sheeshmahal.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.sheeshmahal.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void register(View view) {
-        startActivity(new Intent( MainActivity.this,RegistrationActivity.class));
+        startActivity(new Intent( MainActivity.this, RegistrationActivity.class));
     }
 
     public void SignIn(View view) {
-        startActivity(new Intent( MainActivity.this,LoginActivity.class));
+        startActivity(new Intent( MainActivity.this, LoginActivity.class));
     }
 }
