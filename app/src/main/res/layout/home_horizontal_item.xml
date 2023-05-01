@@ -19,7 +19,7 @@
             android:id="@+id/hor_img"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/pizza"
+            android:src="@drawable/starter"
             android:layout_gravity="center"/>
 
         <TextView
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:text="Pizza"
+            android:text="@string/starter"
             android:layout_gravity="center"
             android:textColor="@color/white"
             android:textSize="15sp"
