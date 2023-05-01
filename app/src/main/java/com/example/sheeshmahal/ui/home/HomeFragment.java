@@ -53,6 +53,7 @@ public class HomeFragment extends Fragment implements UpdateVerticalRec {
         homeHorModelList.add(new HomeHorModel(R.drawable.naan,"Naan"));
         homeHorModelList.add(new HomeHorModel(R.drawable.ice_cream,"Ice Cream"));
 
+
         homeHorAdapter = new HomeHorAdapter(this,getActivity(),homeHorModelList);
         homeHorizontalRec.setAdapter(homeHorAdapter);
         homeHorizontalRec.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.HORIZONTAL,false));

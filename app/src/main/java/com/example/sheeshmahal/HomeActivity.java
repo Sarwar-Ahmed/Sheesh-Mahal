@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
 
     FirebaseAuth auth = FirebaseAuth.getInstance();
     Button button;
-    TextView navText;
+    TextView emailText;
     FirebaseUser user;
 
     @Override
@@ -53,13 +53,16 @@ public class HomeActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
         button = findViewById(R.id.log_out);
-        navText = findViewById(R.id.hello_user);
+        emailText = findViewById(R.id.hello_user);
         user = auth.getCurrentUser();
 
         if (user == null){
             Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(intent);
             finish();
+        }
+        else {
+            emailText.setText(user.getEmail());
         }
 
 
