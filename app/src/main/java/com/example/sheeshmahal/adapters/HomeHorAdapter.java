@@ -77,9 +77,9 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.Viewhold
 
                     else if (position == 1){
                         ArrayList<HomeVerModel> homeVerModels = new ArrayList<>();
-                        homeVerModels.add(new HomeVerModel(R.drawable.madras,"Madras","10:00 - 23:00","4.9","££6.95"));
+                        homeVerModels.add(new HomeVerModel(R.drawable.madras,"Madras","10:00 - 23:00","4.9","£6.95"));
                         homeVerModels.add(new HomeVerModel(R.drawable.masaala,"Masaala","10:00 - 23:00","4.9","£6.95"));
-                        homeVerModels.add(new HomeVerModel(R.drawable.korma,"Korma","10:00 - 23:00","4.9","££6.95"));
+                        homeVerModels.add(new HomeVerModel(R.drawable.korma,"Korma","10:00 - 23:00","4.9","£6.95"));
                         homeVerModels.add(new HomeVerModel(R.drawable.mgrill,"Tandoori Mixed Grill","10:00 - 23:00","4.9","£7.50"));
 
                         updateVerticalRec.callBack(position, homeVerModels);
