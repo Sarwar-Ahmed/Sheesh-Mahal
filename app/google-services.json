@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655892303018",
+    "project_id": "sheeh-mahal",
+    "storage_bucket": "sheeh-mahal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655892303018:android:ed43a67220ef716be454d3",
+        "android_client_info": {
+          "package_name": "com.example.sheeshmahal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655892303018-h094gqcq9ai9nu8vgph6b6u3i8t8i6dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa5ub07LFNuCqhSk2g3UF6nwfXMiPEySo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655892303018-h094gqcq9ai9nu8vgph6b6u3i8t8i6dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
