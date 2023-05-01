@@ -20,7 +20,7 @@
                 android:layout_width="86dp"
                 android:layout_height="86dp"
                 android:id="@+id/cart_img"
-                android:src="@drawable/fries1" />
+                android:src="@drawable/onion_bhaji" />
         </LinearLayout>
 
         <LinearLayout

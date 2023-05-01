@@ -38,11 +38,11 @@ public class CartFragment extends Fragment {
 
         list = new ArrayList<>();
 
-        list.add(new CartModel(R.drawable.fries1, "Order 1", "3", "4.5"));
-        list.add(new CartModel(R.drawable.pizza1, "Order 2", "7", "4.5"));
-        list.add(new CartModel(R.drawable.pizza2, "Order 3", "10", "4.5"));
-        list.add(new CartModel(R.drawable.pizza3, "Order 4", "11", "4.7"));
-        list.add(new CartModel(R.drawable.pizza4, "Order 5", "12", "5"));
+        list.add(new CartModel(R.drawable.onion_bhaji, "Order 1", "3", "4.5"));
+        list.add(new CartModel(R.drawable.lamb, "Order 2", "7", "4.5"));
+        list.add(new CartModel(R.drawable.masaala, "Order 3", "10", "4.5"));
+        list.add(new CartModel(R.drawable.korma, "Order 4", "11", "4.7"));
+        list.add(new CartModel(R.drawable.plainnaan, "Order 5", "12", "5"));
 
         cartAdapter = new CartAdapter(list);
         recyclerView.setAdapter(cartAdapter);
